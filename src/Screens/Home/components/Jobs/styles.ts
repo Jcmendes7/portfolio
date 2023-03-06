@@ -37,7 +37,7 @@ export const Links = styled.div`
     text-decoration: none;
     color: ${props => props.theme.white};
     background: ${props => props.theme['gray-800']};
-    padding: 0.5rem;
+    padding: 0.3rem;
 
     display: flex;
     justify-content: center;
@@ -45,6 +45,10 @@ export const Links = styled.div`
     cursor: pointer;
 
     border-radius: 8px;
+
+    @media(min-width:400px) {
+      padding: 0.5rem;
+    }
   }
 `;
 
