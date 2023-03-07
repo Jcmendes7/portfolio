@@ -1,8 +1,8 @@
 /* eslint-disable react/react-in-jsx-scope */
 import {
+	EnvelopeSimple,
 	FacebookLogo,
 	GithubLogo,
-	InstagramLogo,
 	LinkedinLogo} from 'phosphor-react';
 import {
 	FooterContainer,
@@ -10,6 +10,7 @@ import {
 	FooterNavLink,
 	FooterNavLinkSocialMedia,
 	LogoBlue,
+	LogoEmail,
 	LogoFooter,
 	LogoRed} from './styles';
 import logoImg from './img/JCLogo.svg';
@@ -38,16 +39,16 @@ export function Footer() {
 				<h3>Nos siga nas redes sociais</h3>
 				<FooterNavLinkSocialMedia>
 					<LogoBlue href=''>
-						<FacebookLogo size={28} alt='logo Facebook com link que leva para a pagina' />
+						<FacebookLogo size={30} alt='logo Facebook com link que leva para a pagina' />
 					</LogoBlue>
-					<LogoRed href=''>
-						<InstagramLogo size={28} alt='logo Instragram com link que leva para a pagina' />
-					</LogoRed>
+					<LogoEmail href='mailto:josecarlosms7f@gmail.com'>
+						<EnvelopeSimple size={30} alt='logo Email com link que leva para a pagina' />
+					</LogoEmail>
 					<LogoBlue href='https://www.linkedin.com/in/jcmendes7/' target='_blank' rel='noreferrer'>
-						<LinkedinLogo size={28} alt='logo Linkedin com link que leva para a pagina' />
+						<LinkedinLogo size={30} alt='logo Linkedin com link que leva para a pagina' />
 					</LogoBlue>
 					<LogoRed href='https://github.com/Jcmendes7' target='_blank' rel='noreferrer' >
-						<GithubLogo size={28} alt='logo Pinterest com link que leva para a pagina' />
+						<GithubLogo size={30} alt='logo GitHub com link que leva para a pagina' />
 					</LogoRed>
 
 				</FooterNavLinkSocialMedia>

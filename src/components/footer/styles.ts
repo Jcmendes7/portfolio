@@ -59,6 +59,13 @@ export const LogoRed = styled.a`
   }
 `;
 
+export const LogoEmail = styled.a`
+  &:hover {
+    color: ${props => props.theme['gray-500']};
+    
+  }
+`;
+
 export const LogoFooter = styled.a`
   display: flex;
   align-items: center;

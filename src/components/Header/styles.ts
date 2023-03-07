@@ -9,9 +9,11 @@ export const HeaderContainer = styled.header`
 
 export const NavLink = styled.nav`
   display: none;
+  display: flex;
+  align-items: center;
 
   @media(min-width: 768px) {
-    display: block;
+    display: flex;
   }
 
   a {
@@ -26,6 +28,23 @@ export const NavLink = styled.nav`
     &:hover {
       border-bottom: 3px solid ${props => props.theme['rose-300']};
     }
+  }
+`;
+
+export const LogoEmail = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  svg {
+    color: ${props => props.theme['gray-500']};
+  }
+  &:hover {
+    svg{
+      color: ${props => props.theme['rose-300']};
+    }
+    color: ${props => props.theme['gray-500']};
+    
   }
 `;
 
