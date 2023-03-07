@@ -9,11 +9,10 @@ export const HeaderContainer = styled.header`
 
 export const NavLink = styled.nav`
   display: none;
-  display: flex;
-  align-items: center;
 
   @media(min-width: 768px) {
     display: flex;
+    align-items: center;
   }
 
   a {
