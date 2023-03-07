@@ -14,4 +14,5 @@ export const jobs = [
 		linkGitHub: 'https://github.com/Jcmendes7/ToDo-App.git',
 		linkWebSite: 'https://zesty-daifuku-4d5f70.netlify.app/',
 	},
+
 ];

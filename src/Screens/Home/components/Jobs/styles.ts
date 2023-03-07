@@ -8,10 +8,12 @@ export const JobsCardContainer = styled.div`
   box-shadow: 0px 0px 10px -2px  ${props => props.theme['rose-300']};
   border-radius: 8px;
   padding: 5px;
+  text-align: center;
 
   @media(min-width:768px) {
     max-width: 19rem;
     max-height: 28rem;
+    
   }
 
   img {
@@ -22,6 +24,10 @@ export const JobsCardContainer = styled.div`
 
 export const ViewJobs = styled.div`
   margin: 40px 0 20px;
+
+  h3 {
+    text-align: center;
+  }
 `;
 
 export const ImageCard = styled.div`
