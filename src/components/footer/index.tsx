@@ -1,9 +1,9 @@
 /* eslint-disable react/react-in-jsx-scope */
 import {
 	FacebookLogo,
+	GithubLogo,
 	InstagramLogo,
-	LinkedinLogo,
-	PinterestLogo} from 'phosphor-react';
+	LinkedinLogo} from 'phosphor-react';
 import {
 	FooterContainer,
 	FooterEmpresa,
@@ -46,8 +46,8 @@ export function Footer() {
 					<LogoBlue href='https://www.linkedin.com/in/jcmendes7/' target='_blank' rel='noreferrer'>
 						<LinkedinLogo size={28} alt='logo Linkedin com link que leva para a pagina' />
 					</LogoBlue>
-					<LogoRed href=''>
-						<PinterestLogo size={28} alt='logo Pinterest com link que leva para a pagina' />
+					<LogoRed href='https://github.com/Jcmendes7' target='_blank' rel='noreferrer' >
+						<GithubLogo size={28} alt='logo Pinterest com link que leva para a pagina' />
 					</LogoRed>
 
 				</FooterNavLinkSocialMedia>

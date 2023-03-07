@@ -89,7 +89,7 @@ export const ProfileImg = styled.div`
   }
 `;
 
-export const Title_About = styled.p`
+export const Title_About = styled.div`
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
