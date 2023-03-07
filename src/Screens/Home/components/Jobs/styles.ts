@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const JobsCardContainer = styled.div`
   display: flex;
   flex-direction: column;
+  color: ${props => props.theme['gray-300']};
   box-shadow: 0px 0px 10px -2px  ${props => props.theme['rose-300']};
   border-radius: 8px;
   padding: 5px;
@@ -45,6 +46,12 @@ export const Links = styled.div`
     cursor: pointer;
 
     border-radius: 8px;
+    transition: 200ms;
+
+    &:hover {
+      background: ${props => props.theme['gray-850']};
+      color: ${props => props.theme['gray-300']};
+    }
 
     @media(min-width:400px) {
       padding: 0.5rem;
