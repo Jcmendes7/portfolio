@@ -5,6 +5,11 @@ export const HeaderContainer = styled.header`
   padding: 1.4rem 2rem;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: ${props => props.theme['gray-header']};
+  
 `;
 
 export const NavLink = styled.nav`

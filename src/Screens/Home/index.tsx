@@ -13,7 +13,7 @@ export function Home() {
 
 			<TitleContainer>
 				<p>
-					<TitleMyName href=''>OLÁ, MEU NOME É JOSE CARLOS</TitleMyName>
+					<TitleMyName id='sobre' href=''>OLÁ, MEU NOME É JOSE CARLOS</TitleMyName>
 				</p>
 				<div>
 					<Title_h1>Eu desenvolvo webSites e amo o que faço.</Title_h1>
@@ -23,7 +23,7 @@ export function Home() {
 						<img src={imageProfile} alt='' />
 					</ProfileImg>
 
-					<Title_About id='sobre'>
+					<Title_About >
 						Desde que comecei minha jornada como desenvolvedor web em 2022 na
 						faculdade, fiz vários cursos para reforçar meus conhecimentos.
 
@@ -50,10 +50,10 @@ export function Home() {
 				<SkillCard />
 				<SkillLanguage />
 			</SessionContainer>
-			<ViewJobs>
+			<ViewJobs id='projetos'>
 				<h3>Aqui você pode conferir alguns dos trabalhos pessoais que realizei</h3>
 			</ViewJobs>
-			<SessionJobs id='projetos'>
+			<SessionJobs>
 
 				{jobs.map(myjobs => (
 					<MyJobs

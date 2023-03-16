@@ -52,6 +52,7 @@ export const SessionJobs = styled.section`
   flex-direction: column;
   margin-top: 1rem;
   gap: 2rem;
+  padding-top: 60px;
 
   @media(min-width: 768px) {
     flex-direction: row;
